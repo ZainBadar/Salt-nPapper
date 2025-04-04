@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+    align-items: center;
+}
+
+.hold {
+    display: flex;
+    gap: 40px;
+}
+
+.hold>img {
+    height: 40px;
+}
+
+.hold>img {
+
+    /* margin-right: 50px; */
+    /* gap: 40px; */
+}
+
+.main>input {}
+
+.mainn {
+    display: flex;
+    align-items: center;
+}
+
+.mainn>ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+
+.carousel-item img {
+    height: 400px;
+    /* ya jitni height chahiye */
+    object-fit: cover;
+    /* ya 'contain' if you want full image without crop */
+}
+
+.mainn>ul>li {
+
+
+
+    color: black;
+    text-align: center;
+    /* margin: 40px; */
+    gap: 40px;
+
+
+}
+
+.main>input {
+    height: 20px;
+    width: 890px;
+    margin-top: 10px;
+}
+
+.electronic {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.electronic>ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    cursor: pointer;
+    /* size: 100px; */
+}
+
+.banner {
+    display: flex;
+
+
+    flex-direction: column;
+}
+
+.banner>img {
+    height: 820px;
+    width: 100%;
+}
+
+.banner-line {
+    text-align: center;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+}
+
+.banner2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner3 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner4-head {
+    display: flex;
+    /* text-align: center;   */
+    justify-content: center;
+}
+
+.banner4 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner4>img {
+    height: 300px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
+
+}
+
+.banner5-head {
+    text-align: center;
+    margin-right: 900px;
+
+}
+
+.banner5 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.banner6-head {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.banner6-head>h1 {
+    text-align: center;
+    margin-right: 1250px;
+}
+
+.banner6 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner6>img {
+    border: black solid;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* line-height: 100px; */
+    background: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last1 {
+
+    /* display: flex; */
+    /* justify-content: right; */
+    line-height: 50px;
+}
+
+.footer-start {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* list-style: none; */
+}
+
+.footer1 {}
+
+.footer1>ul {
+    list-style: none;
+}
